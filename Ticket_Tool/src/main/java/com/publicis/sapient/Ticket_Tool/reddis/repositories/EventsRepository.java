@@ -6,12 +6,12 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.publicis.sapient.Ticket_Tool.EventType;
-import com.publicis.sapient.Ticket_Tool.reddis.entities.Events;
+import com.publicis.sapient.Ticket_Tool.reddis.entities.Event;
 
 @Repository
-public interface EventsRepository extends CrudRepository<Events, String> {
+public interface EventsRepository extends CrudRepository<Event, String> {
 
-    List<Events> findByTypeAndCityId(EventType type, Integer cityId);
+    List<Event> findByTypeAndCityId(EventType type, Integer cityId);
 
-    List<Events> findByCityId(Integer cityId);
+    List<Event> findByCityId(Integer cityId);
 }

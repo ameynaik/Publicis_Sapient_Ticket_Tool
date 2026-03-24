@@ -1,4 +1,4 @@
-package main.java.com.publicis.sapient.Booking_Service.config;
+package com.publicis.sapient.Booking_Service.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
