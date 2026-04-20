@@ -1,4 +1,4 @@
-# Publicis_Sapient_Ticket_Tool
+# Ticket_Tool
 ### This project is done as part of Assignment round of Publicis Sapient.
 
 ## Introduction
